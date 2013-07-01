@@ -3,7 +3,7 @@
     var lastmsg = false;
     $('#msgtpl').remove();
 
-    var socket = io.connect('http://localhost:1337');
+    var socket = io.connect();
 
     $('#loginform').submit(function (event) {
         event.preventDefault();
